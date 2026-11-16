@@ -1,0 +1,14 @@
+{
+    "method": "deleteProperty",
+    "params": {
+        "type": "object",
+        "check_permissions": true,
+        "fuzz": true,
+        "fields": {
+            "name": {
+                "type": "string",
+                "fuzz": true
+            }
+        }
+    }
+}

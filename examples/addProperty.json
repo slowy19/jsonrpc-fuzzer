@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "addProperty",
+    "params": {
+        "name": "test_link",
+        "type": "HyperLink"
+    },
+    "id": 1
+}

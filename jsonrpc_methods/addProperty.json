@@ -1,0 +1,21 @@
+{
+    "method": "addProperty",
+    "params": {
+        "type": "object",
+        "check_permissions": true,
+        "fuzz": true,
+        "fields": {
+            "name": {
+                "type": "string",
+                "fuzz": true
+            },
+            "type": {
+                "type": "string",
+                "enum": [
+                    "HyperLink",
+                    "QString"
+                ]
+            }
+        }
+    }
+}

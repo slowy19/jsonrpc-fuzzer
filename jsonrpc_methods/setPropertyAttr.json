@@ -1,0 +1,25 @@
+{
+    "method": "setPropertyAttr",
+    "params": {
+        "type": "object",
+        "check_permissions": true,
+        "fuzz": true,
+        "fields": {
+            "property": {
+                "type": "string",
+                "fuzz": true
+            },
+            "attribute": {
+                "type": "string",
+                "enum": [
+                    "text",
+                    "url"
+                ]
+            },
+            "data": {
+                "type": "string",
+                "fuzz": true
+            }
+        }
+    }
+}

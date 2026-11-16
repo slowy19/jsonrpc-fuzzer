@@ -1,0 +1,8 @@
+{
+    "method": "listProperties",
+    "params": {
+        "type": "object",
+        "check_permissions": true,
+        "fuzz": true
+    }
+}

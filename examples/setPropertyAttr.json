@@ -1,0 +1,10 @@
+{
+    "jsonrpc": "2.0",
+    "method": "setPropertyAttr",
+    "params": {
+        "property": "test_link",
+        "attribute": "text",
+        "data": "nowhere"
+    },
+    "id": 1
+}
